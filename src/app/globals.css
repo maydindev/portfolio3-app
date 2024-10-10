@@ -17,10 +17,10 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
   /*font-family: Arial, Helvetica, sans-serif;*/
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Avenir', sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Avenir', sans-serif;*/
 }
 
 @layer utilities {
@@ -29,6 +29,14 @@ body {
   }
 }
 
-.customShadow {
-  box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5)
+.customShadow1 {
+  box-shadow: 5px 5px 5px rgba(72, 187, 120, 0.9)
+}
+
+.customShadow2 {
+  box-shadow: -15px 20px 5px rgba(0, 0, 0, 0.9)
+}
+
+.customShadow3 {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9)
 }
